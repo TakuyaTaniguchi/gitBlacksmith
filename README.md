@@ -42,5 +42,7 @@ git branch
 ### push
 
 ```
-git push {branchname}
+git push {branchname} 
+or
+git push origin HEAD
 ```
