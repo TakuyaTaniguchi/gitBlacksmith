@@ -53,3 +53,12 @@ git push origin HEAD
 git checkout master
 git merge Branch1
 ```
+
+## ブランチの名前を変更
+新しいブランチが作成される。
+つまりすでに他のブランチに取り込まれている場合修正は困難である。
+
+```
+git branch -m <newname>
+git push origin :<oldbranchName>
+```
