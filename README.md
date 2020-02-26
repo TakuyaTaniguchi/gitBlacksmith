@@ -92,4 +92,5 @@ git rebase master
 git rebase --continue
 git checkout master
 git merge master
+git puhs origin HEAD
 ```
