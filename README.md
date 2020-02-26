@@ -62,3 +62,13 @@ git merge Branch1
 git branch -m <newname>
 git push origin :<oldbranchName>
 ```
+
+## ブランチの削除
+```
+git branch --delete foo
+```
+
+マージしたかどうかを問わずに削除する
+```
+git branch -D <brancname>
+```
