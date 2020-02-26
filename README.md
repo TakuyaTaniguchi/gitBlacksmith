@@ -104,3 +104,10 @@ git checkout master
 git merge rebase
 git push origin HEAD
 ```
+
+## コミットする前に
+
+```
+git status
+git diff --staged
+```
