@@ -79,3 +79,9 @@ git branch -D <brancname>
 ローカルのコミットをまとめる。
 ※pushしたあとにリベースコマンドは使用しない。
 
+```
+git rebase -i HEAD~~
+//編集モードに入る。
+//https://tkengo.github.io/blog/2013/05/16/git-rebase-reference/
+git push origin HEAD
+```
