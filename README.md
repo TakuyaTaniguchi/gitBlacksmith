@@ -85,3 +85,11 @@ git rebase -i HEAD~~
 //https://tkengo.github.io/blog/2013/05/16/git-rebase-reference/
 git push origin HEAD
 ```
+
+マージした際のコミットログをブランチごとにまとめる。
+```
+git rebase master
+git rebase --continue
+git checkout master
+git merge master
+```
