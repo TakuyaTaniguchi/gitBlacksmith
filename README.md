@@ -46,3 +46,10 @@ git push {branchname}
 or
 git push origin HEAD
 ```
+
+### ブランチのマージ
+
+```
+git checkout master
+git merge Branch1
+```
