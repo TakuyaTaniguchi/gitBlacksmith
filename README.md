@@ -26,3 +26,21 @@ Date:   Wed Feb 26 11:49:19 2020 +0900
 ```
 git revert <commit id>
 ```
+
+## ブランチの分岐
+Vscodeから作成もしくは
+
+```
+ git branch {branchname}
+```
+
+### 一覧の取得
+```
+git branch
+```
+
+### push
+
+```
+git push {branchname}
+```
