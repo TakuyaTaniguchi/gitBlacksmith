@@ -72,3 +72,10 @@ git branch --delete foo
 ```
 git branch -D <brancname>
 ```
+
+
+## リベース
+
+ローカルのコミットをまとめる。
+※pushしたあとにリベースコマンドは使用しない。
+
