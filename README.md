@@ -92,5 +92,15 @@ git rebase master
 git rebase --continue
 git checkout master
 git merge master
-git puhs origin HEAD
+git push origin HEAD
+```
+合わせ技。
+
+```
+git rebase -i HEAD~~
+git rebase master
+git rebase --continue
+git checkout master
+git merge rebase
+git push origin HEAD
 ```
