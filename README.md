@@ -111,3 +111,7 @@ git push origin HEAD
 git status
 git diff --staged
 ```
+
+
+## github上のコンフリクト
+自身がブランチを切った段階から、masterが進むとコンフリクトを起こす。
