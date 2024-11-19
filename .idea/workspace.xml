@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6f1ea3-b3f1-463d-988b-62dcebd08039" name="変更" comment="コンフリクトするかも" />
+    <list default="true" id="9b6f1ea3-b3f1-463d-988b-62dcebd08039" name="変更" comment="pullしたやつ">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gitBlacksmith.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitBlacksmith.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/add.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,11 +45,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="next_2" />
-                    <option name="lastUsedInstant" value="1731992736" />
+                    <option name="lastUsedInstant" value="1731993450" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1731992640" />
+                    <option name="lastUsedInstant" value="1731993362" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="next" />
@@ -84,7 +95,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "next__2",
+    "git-widget-placeholder": "next__2 をマージ中 の #13",
     "last_opened_file_path": "/Users/ttanigcuhi/src/sandbox/gitBlacksmith",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -109,6 +120,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -140,7 +152,8 @@
       <option name="presentableId" value="Default" />
       <updated>1731992331571</updated>
       <workItem from="1731992332738" duration="388000" />
-      <workItem from="1731992722643" duration="453000" />
+      <workItem from="1731992722643" duration="892000" />
+      <workItem from="1731993617578" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="追加">
       <option name="closed" value="true" />
@@ -174,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731992768409</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="コンフリクトするかも">
+      <option name="closed" value="true" />
+      <created>1731993413681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731993413681</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="追加" />
     <MESSAGE value="コンフリクトするかも" />
-    <option name="LAST_COMMIT_MESSAGE" value="コンフリクトするかも" />
+    <MESSAGE value="pullしたやつ" />
+    <option name="LAST_COMMIT_MESSAGE" value="pullしたやつ" />
   </component>
 </project>
